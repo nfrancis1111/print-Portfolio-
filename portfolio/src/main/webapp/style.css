@@ -32,6 +32,9 @@ nav ul li{
 nav .highlightOnHover{
     display:none;
 }
+h2{
+    color: darkblue;
+}
 
 footer{
     display:block;
