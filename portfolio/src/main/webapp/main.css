@@ -1,3 +1,7 @@
+/* this content is for shared themes and elements
+such as the nav bar and body color */
+
+
 body{
     background:#CCE6F4;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,7 +9,7 @@ body{
 }
 header{
     background: darkblue;
-    color: rgba(221, 140, 19, 0.918);
+    color: rgb(201, 62, 189);
     padding: 15px 15px 0.1px 15px;
    font-family: 'Courier New', Courier, monospace;
    margin: 0;
@@ -32,9 +36,6 @@ nav ul li{
 nav .highlightOnHover{
     display:none;
 }
-h2{
-    color: darkblue;
-}
 
 footer{
     display:block;
@@ -53,25 +54,8 @@ footer a {
 }
 
 
-.column {
-    color: darkblue;
-    background: rgb(241, 229, 203);
-    border:none;
-    float: left;
-    width: 30%;
-    padding: 15px;
-    }
-    
-    /* Clear floats after the columns */
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-    
-    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-    @media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-    }
-}
+
+
+
+
+

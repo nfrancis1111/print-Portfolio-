@@ -2,9 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="main.css" rel="stylesheet"/>
+        <link href="home.css" rel="stylesheet"/>
+        <link href="carousel/carousel.css" rel="stylesheet"/>
+        
+        
+        <title>HOMEPAGE</title>
     </head>
     <header>
         <h1>Nyasha Soleil</h1>
@@ -12,17 +16,45 @@
             <h3>
                 <ul>
                     <li>home</li>
-                    <li><a href=about.html>about me</a></li>
-                    <li><a href=contact.html>contact</a></li>
-                    <li><a href=page4.html>career</a></li>
+                    <li><a href=aboutme.html>about me</a></li>
+                    <li><a href=connect.html>connect</a></li>
+                    <li><a href=projects.html>projects</a></li>
                 </ul>
             </h3>   
         </nav>
     </header>
-     <body>
-        <h2>Welcome to My Portfolio!</h2>
+
+    <body>
+        <br>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+            <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+            <div class="imageHolder">
+                <img id="cruise" src="images/yikes.jpg">1366X768
+                <p class="captionText">Hi, I'm Nyasha!</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/allum.jpeg">
+                <p class="captionText">These are my best friends</p>
+            </div>
+            <div class="imageHolder">
+                <img id="boffum" src="images/boffum.jpeg">
+                <p class="captionText">Trip to the National Museum of African American History and Culture</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Text">These are my friends</p>
+            </div>
+
+            <div class="imageHolder">
+                <img src="images/hipless.jpeg">
+                <p class="captionText"></p>
+            </div>
+
+        </div>
+        <div id="dotsContainer"></div>
+        </div>
+
         <div class="container">
-            <h3><b>General Interests:</b></h3>
+            <h2><b>General Interests:</b></h2>
             <div class="row">
                 <div class="column">
                     <h3>Musical Theater</h3>
@@ -39,7 +71,7 @@
             </div>
             <br>
             <br>
-            <h3><b>Technical Interests:</b></h3>
+            <h2><b>Technical Interests:</b></h2>
             <div class="row">
                 <div class="column">
                     <h3>Frontend Development</h3>
@@ -55,13 +87,19 @@
                 </div>
             </div>
         </div>
-        <p>Click here to get a random message:</p>
-        <button onclick="addRandomGreeting()">Hello</button>
-        <div id="greeting-container"></div>
-        </div>
+
+        <br>
+        <br>
+
+        <script src="script.js">  </script>
+        <script src="carousel/carousel.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </body>
+
     <footer>
         <p>Thanks for visiting my site!</p>
         <p>Contact information: <a href="mailto:nyashasfrancis@gmail.com">nyashasfrancis@gmail.com</a></p>
     </footer>
 </html>
+    
