@@ -11,8 +11,8 @@ header{
     background: darkblue;
     color: rgb(201, 62, 189);
     padding: 15px 15px 0.1px 15px;
-   font-family: 'Courier New', Courier, monospace;
-   margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 header h1{
@@ -43,6 +43,7 @@ footer{
     color:rgb(241, 229, 203);
     padding:20px;
     margin:0;
+    text-align: right
 }
 
 a{
@@ -51,6 +52,7 @@ a{
 
 footer a {
     color:rgb(241, 229, 203);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 

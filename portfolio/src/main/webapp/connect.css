@@ -1,4 +1,5 @@
 ul li{
+    text-align: center;
     background: rgb(241, 229, 203);
     color:darkblue;
     display:inline-block;
@@ -13,11 +14,6 @@ ul li{
 li h2{
     font-family: 'Courier New', Courier, monospace;
 }
-.vl {
-  border-left: 8px solid darkblue;
-  height: 350px;
-  display:inline-block;
-}
 
 input[type=text] {
     width: 300px;
@@ -29,14 +25,14 @@ input[type=text] {
      background:darkblue;
      color:rgb(241, 229, 203);
  }
- #messagebox{
-     width:500px;
-     height: 100px;
- }
 
- #contactsheet{
-    position: absolute;
-    top: 50px;
-    right: 150px;
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
- }
+h2{
+    color:darkblue;
+    font-family: 'Courier New', Courier, monospace
+}

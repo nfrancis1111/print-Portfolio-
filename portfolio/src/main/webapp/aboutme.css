@@ -2,5 +2,33 @@ img{
     transform:rotate(90deg);
     width: 30%;
     height: 30%;
-    align-content: center;
+    float: left;
+    padding:100px;
+    padding-right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#bio{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 40px;
+    color: rgb(201, 62, 189);
+    align-items: center;
+    height:60%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: rgb(241, 229, 203);
+    color:darkblue;
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace
 }

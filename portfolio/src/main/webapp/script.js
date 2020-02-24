@@ -12,17 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/**
- * Adds a random greeting to the page.
- */
-function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
 
-  // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+function funFacts() {
+  const facts =
+      ["I'm a Scorpio born on November 11","I have triplet siblings","I love classical music","I adore Meek Mill", "Pop Smoke is an absolute favorite","You'll hear me before you see me","I love card games","Like all polar bears, I am left-handed","Mulan is my favorite Disney princess","Rent is my favorite musical of all time","Cello Suite 1 in G Major is the cure to my insomnia"];
+
+
+  const fact = facts[Math.floor(Math.random() * facts.length)];
 
   // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  const factContainer = document.getElementById('fact-container');
+  factContainer.innerText = fact;
 }
