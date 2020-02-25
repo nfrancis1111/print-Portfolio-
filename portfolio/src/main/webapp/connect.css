@@ -1,0 +1,38 @@
+ul li{
+    text-align: center;
+    background: rgb(241, 229, 203);
+    color:darkblue;
+    display:inline-block;
+    list-style-type: none;
+    padding: 30px 45px;
+    border-width:20px;
+    border-radius: 5px;
+    border:darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+li h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text] {
+    width: 300px;
+    color:darkblue;
+    background:#CCE6F4;
+ }
+
+ input[type=submit] {
+     background:darkblue;
+     color:rgb(241, 229, 203);
+ }
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color:darkblue;
+    font-family: 'Courier New', Courier, monospace
+}

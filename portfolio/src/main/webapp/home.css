@@ -1,0 +1,33 @@
+
+.column {
+    color: darkblue;
+    background: rgb(241, 229, 203);
+    border:none;
+    float: left;
+    width: 32%;
+    padding: 15px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+h2{
+    color: rgb(201, 62, 189);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#boffum{
+    transform:rotate(180deg)
+
+}
